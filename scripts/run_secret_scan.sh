@@ -17,3 +17,4 @@ fi
 gitleaks detect --source "$REPO_PATH" --report-format json --report-path leaks.json
 
 echo "Secret scan completed. Report saved at leaks.json"
+
